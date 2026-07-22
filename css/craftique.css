@@ -1,6 +1,7 @@
 body{
     background-color: #fdf4e9;
     color:#76573d;
+    font-family: 'Times New Roman', Times, serif;
 }
 header{
     color: #76573d;
@@ -11,6 +12,7 @@ header{
     background-color: #c98b8b; /* Dusty Pink */
     padding: 12px 30px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    
     
 }
 
@@ -78,6 +80,14 @@ a{
         background-color: #8b5e5e;
     color: white;
 }
+.about-img{
+    border-radius: 15px;
+    transition: 0.4s;
+}
+.about-img:hover{
+    transform:scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
 .mission-box,
 .vision-box{
     border:1px solid #d9e4f5;
@@ -92,7 +102,8 @@ a{
 .vision-box:hover{
     box-shadow:0 8px 20px rgba(0,0,0,0.1);
     transform:translateY(-5px);
-    background-color: #e6c6c6;
+    background:#7B4A4A;
+    color:#fff;
 }
 
 .icon{
@@ -112,6 +123,9 @@ h3{
     font-weight:600;
     margin-bottom:15px;
 }
+.logo:hover{
+transform:translateY(-5px);
+}
 
 .card{
     color:#030303;
@@ -129,4 +143,123 @@ pre{
 }
 .accordion-item{
      background-color:#e6c6c6;
+}
+.services{
+    background:#FFF8F5;
+}
+
+.service-title{
+    color:#7B4A4A;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.service-card{
+    background:#fff;
+    padding:35px 25px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.4s;
+    height:100%;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.18);
+    background-color: #c98b8b;
+    color: white;
+}
+
+.service-icon{
+    font-size:60px;
+    color:#7B4A4A;
+    margin-bottom:20px;
+}
+
+.service-card h4{
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.service-card p{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.btn-service{
+    background:#7B4A4A;
+    color:white;
+    border-radius:30px;
+    padding:10px 25px;
+}
+
+.btn-service:hover{
+    background:#5D3636;
+    color:white;
+}
+.read-btn{
+    background:#7B4A4A;
+    color:white;
+    border-radius:30px;
+    padding:10px 25px;
+}
+
+.read-btn:hover{
+    background:#5D3636;
+    color:white;
+}
+.service-btn{
+    background:#7B4A4A;
+    color:white;
+    border-radius:30px;
+    padding:10px 25px;
+}
+
+.service-btn:hover{
+    background:#5D3636;
+    color:white;
+}
+.section-title{
+    color:#7B4A4A;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.value-card{
+    background:#FFF8F5;
+    border-radius:15px;
+    padding:30px 20px;
+    text-align:center;
+    height:100%;
+    transition:0.4s;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.value-card i{
+    font-size:45px;
+    color:#7B4A4A;
+    margin-bottom:15px;
+}
+
+.value-card h4{
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.value-card p{
+    color:#666;
+    font-size:15px;
+}
+
+.value-card:hover{
+    transform:translateY(-10px);
+    background:#7B4A4A;
+    color:#fff;
+}
+
+.value-card:hover i,
+.value-card:hover p,
+.value-card:hover h4{
+    color:#fff;
 }
