@@ -126,10 +126,79 @@ h3{
 .logo:hover{
 transform:translateY(-5px);
 }
+/* Banner */
+.banner{
+    background:#7B4A4A;
+    color:#fff;
+    text-align:center;
+    padding:70px 20px;
+}
 
+.banner h1{
+    font-size:45px;
+    font-weight:bold;
+}
+
+.banner p{
+    font-size:18px;
+}
+
+/* Cards */
+.product-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+    height:100%;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+}
+
+.product-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.product-info{
+    padding:20px;
+}
+
+.price{
+    color:#7B4A4A;
+    font-size:22px;
+    font-weight:bold;
+}
+.card-img{
+    height:250px;
+    object-fit:cover;
+    border-radius:10px 10px 0 0;
+}
+.btn-buy{
+    background:#7B4A4A;
+    color:#fff;
+    border-radius:30px;
+}
+
+.btn-buy:hover{
+    background:#5d3636;
+    color:#fff;
+}
+
+/* CTA */
+.cta{
+    background:#7B4A4A;
+    color:#fff;
+    text-align:center;
+    padding:20px 20px;
+}
 .card{
     color:#030303;
     line-height:1.8;
+    margin-bottom: 30px;
 }
 pre{
     font-family: 'Times New Roman', Times, serif;
@@ -140,6 +209,10 @@ pre{
     background-color:#8b5e5e;
     color:white;
     
+}
+.accordion-button{
+     background-color:#9c7272;
+     color: white;
 }
 .accordion-item{
      background-color:#e6c6c6;
@@ -219,6 +292,12 @@ pre{
 .service-btn:hover{
     background:#5D3636;
     color:white;
+}
+.dropdown-menu{
+    background-color:#5D3636;
+}
+.dropdown-item:hover{
+    background-color:#885d5d;
 }
 .section-title{
     color:#7B4A4A;
